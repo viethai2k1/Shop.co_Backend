@@ -31,6 +31,7 @@ public class ProductEntity {
     private boolean status;
     private boolean isDelete;
     private int totalRate;
+    private int test;
 
     @ManyToMany
     private List<CategoryEntity> categories;
